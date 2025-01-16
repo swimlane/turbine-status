@@ -3,6 +3,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { HeaderBannerComponent } from './header-banner/header-banner.component';
+import { regions } from '../config';
 
 @Component({
   selector: 'app-root',
@@ -16,5 +17,5 @@ import { HeaderBannerComponent } from './header-banner/header-banner.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'Turbine Status';
+  regions = regions;
 }

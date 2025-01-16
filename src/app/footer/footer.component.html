@@ -5,65 +5,46 @@
         <img src="assets/swimlane-header-logo.svg" />
       </a>
       <div class="footer-icons">
-        <a
-          *ngIf="urls.facebook && urls.facebook.length > 0"
-          class="footer-icon"
-          href="{{ urls.facebook }}"
-          target="_blank"
-        >
+        @if (urls.facebook && urls.facebook.length > 0) {
+        <a class="footer-icon" href="{{ urls.facebook }}" target="_blank">
           <img src="assets/facebook.svg" />
         </a>
-        <a
-          *ngIf="urls.twitter && urls.twitter.length > 0"
-          class="footer-icon"
-          href="{{ urls.twitter }}"
-          target="_blank"
-        >
+        } @if (urls.twitter && urls.twitter.length > 0) {
+        <a class="footer-icon" href="{{ urls.twitter }}" target="_blank">
           <img src="assets/twitter.svg" />
         </a>
-        <a
-          *ngIf="urls.linkedin && urls.linkedin.length > 0"
-          class="footer-icon"
-          href="{{ urls.linkedin }}"
-          target="_blank"
-        >
+        } @if (urls.linkedin && urls.linkedin.length > 0) {
+        <a class="footer-icon" href="{{ urls.linkedin }}" target="_blank">
           <img src="assets/linkedin.svg" />
         </a>
-        <a
-          *ngIf="urls.github && urls.github.length > 0"
-          class="footer-icon"
-          href="{{ urls.github }}"
-          target="_blank"
-        >
+        } @if (urls.github && urls.github.length > 0) {
+        <a class="footer-icon" href="{{ urls.github }}" target="_blank">
           <img src="assets/github.svg" />
         </a>
-        <a
-          *ngIf="urls.youtube && urls.youtube.length > 0"
-          class="footer-icon"
-          href="{{ urls.youtube }}"
-          target="_blank"
-        >
+        } @if (urls.youtube && urls.youtube.length > 0) {
+        <a class="footer-icon" href="{{ urls.youtube }}" target="_blank">
           <img src="assets/youtube.svg" />
         </a>
+        }
       </div>
     </div>
     <div class="footer-policies">
       <div class="copyright">{{ labels.copyright }}</div>
       <div class="policy-links">
-        <a class="policy-link" href="{{ urls.legalResources }}" target="_blank">
-          {{ labels.legalResources }}
-        </a>
-        <span class="policy-divider">/</span>
         <a class="policy-link" href="{{ urls.privacyPolicy }}" target="_blank">
           {{ labels.privacyPolicy }}
         </a>
         <span class="policy-divider">/</span>
-        <a class="policy-link" href="{{ urls.cookiePolicy }}" target="_blank">
-          {{ labels.cookiePolicy }}
+        <a class="policy-link" href="{{ urls.legalResources }}" target="_blank">
+          {{ labels.legalResources }}
         </a>
         <span class="policy-divider">/</span>
-        <a class="policy-link" href="{{ urls.termsOfUse }}" target="_blank">
-          {{ labels.termsOfUse }}
+        <a class="policy-link" href="{{ urls.contact }}" target="_blank">
+          {{ labels.contact }}
+        </a>
+        <span class="policy-divider">/</span>
+        <a class="policy-link" href="{{ urls.support }}" target="_blank">
+          {{ labels.support }}
         </a>
       </div>
     </div>
