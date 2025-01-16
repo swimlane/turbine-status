@@ -9,6 +9,7 @@
           *ngIf="urls.facebook && urls.facebook.length > 0"
           class="footer-icon"
           href="{{ urls.facebook }}"
+          target="_blank"
         >
           <img src="assets/facebook.svg" />
         </a>
@@ -16,6 +17,7 @@
           *ngIf="urls.twitter && urls.twitter.length > 0"
           class="footer-icon"
           href="{{ urls.twitter }}"
+          target="_blank"
         >
           <img src="assets/twitter.svg" />
         </a>
@@ -23,6 +25,7 @@
           *ngIf="urls.linkedin && urls.linkedin.length > 0"
           class="footer-icon"
           href="{{ urls.linkedin }}"
+          target="_blank"
         >
           <img src="assets/linkedin.svg" />
         </a>
@@ -30,6 +33,7 @@
           *ngIf="urls.github && urls.github.length > 0"
           class="footer-icon"
           href="{{ urls.github }}"
+          target="_blank"
         >
           <img src="assets/github.svg" />
         </a>
@@ -37,28 +41,29 @@
           *ngIf="urls.youtube && urls.youtube.length > 0"
           class="footer-icon"
           href="{{ urls.youtube }}"
+          target="_blank"
         >
           <img src="assets/youtube.svg" />
         </a>
       </div>
     </div>
     <div class="footer-policies">
-      <div>{{ labels.copyright }}</div>
+      <div class="copyright">{{ labels.copyright }}</div>
       <div class="policy-links">
-        <a class="policy-link" href="{{ urls.gdrp }}">
-          {{ labels.gdrp }}
+        <a class="policy-link" href="{{ urls.legalResources }}" target="_blank">
+          {{ labels.legalResources }}
         </a>
         <span class="policy-divider">/</span>
-        <a class="policy-link" href="{{ urls.privacyPolicy }}">
+        <a class="policy-link" href="{{ urls.privacyPolicy }}" target="_blank">
           {{ labels.privacyPolicy }}
         </a>
         <span class="policy-divider">/</span>
-        <a class="policy-link" href="{{ urls.termsOfUse }}">
-          {{ labels.termsOfUse }}
+        <a class="policy-link" href="{{ urls.cookiePolicy }}" target="_blank">
+          {{ labels.cookiePolicy }}
         </a>
         <span class="policy-divider">/</span>
-        <a class="policy-link" href="{{ urls.csr }}">
-          {{ labels.csr }}
+        <a class="policy-link" href="{{ urls.termsOfUse }}" target="_blank">
+          {{ labels.termsOfUse }}
         </a>
       </div>
     </div>

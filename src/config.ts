@@ -3,11 +3,11 @@ export const labels = {
   bannerSubtitle:
     "Below you'll find status information for Swimlane's Cloud-native Turbine platform",
   supportButton: 'Go to Support Portal',
-  copyright: '© 2022 Swimlane Inc. All rights reserved.',
-  gdrp: 'GDRP',
+  copyright: '© 2025 Swimlane Inc. All rights reserved.',
+  legalResources: 'Legal Resources',
   privacyPolicy: 'Privacy Policy',
+  cookiePolicy: 'Cookie Policy',
   termsOfUse: 'Terms of Use',
-  csr: 'CSR',
 };
 
 export const urls = {
@@ -17,10 +17,10 @@ export const urls = {
   linkedin: 'https://www.linkedin.com/company/swimlane',
   twitter: 'https://twitter.com/swimlane',
   youtube: 'https://www.youtube.com/channel/UCs6qP3QXytOsCD1TRIw0EYg',
-  gdrp: '',
-  privacyPolicy: '',
-  termsOfUse: '',
-  csr: '',
+  legalResources: 'https://swimlane.com/legal',
+  privacyPolicy: 'https://swimlane.com/privacy-policy',
+  cookiePolicy: 'https://swimlane.com/#',
+  termsOfUse: 'https://swimlane.com/terms',
 };
 
 export const regions = [

@@ -19,4 +19,9 @@
   border-radius: 6px;
   font-size: 14px;
   font-weight: 700;
+
+  &:hover {
+    color: #f36;
+    border-color: #f36;
+  }
 }
