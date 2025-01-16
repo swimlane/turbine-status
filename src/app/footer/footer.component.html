@@ -1,1 +1,66 @@
-<footer>footer works!</footer>
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-contents">
+      <a href="">
+        <img src="assets/swimlane-header-logo.svg" />
+      </a>
+      <div class="footer-icons">
+        <a
+          *ngIf="urls.facebook && urls.facebook.length > 0"
+          class="footer-icon"
+          href="{{ urls.facebook }}"
+        >
+          <img src="assets/facebook.svg" />
+        </a>
+        <a
+          *ngIf="urls.twitter && urls.twitter.length > 0"
+          class="footer-icon"
+          href="{{ urls.twitter }}"
+        >
+          <img src="assets/twitter.svg" />
+        </a>
+        <a
+          *ngIf="urls.linkedin && urls.linkedin.length > 0"
+          class="footer-icon"
+          href="{{ urls.linkedin }}"
+        >
+          <img src="assets/linkedin.svg" />
+        </a>
+        <a
+          *ngIf="urls.github && urls.github.length > 0"
+          class="footer-icon"
+          href="{{ urls.github }}"
+        >
+          <img src="assets/github.svg" />
+        </a>
+        <a
+          *ngIf="urls.youtube && urls.youtube.length > 0"
+          class="footer-icon"
+          href="{{ urls.youtube }}"
+        >
+          <img src="assets/youtube.svg" />
+        </a>
+      </div>
+    </div>
+    <div class="footer-policies">
+      <div>{{ labels.copyright }}</div>
+      <div class="policy-links">
+        <a class="policy-link" href="{{ urls.gdrp }}">
+          {{ labels.gdrp }}
+        </a>
+        <span class="policy-divider">/</span>
+        <a class="policy-link" href="{{ urls.privacyPolicy }}">
+          {{ labels.privacyPolicy }}
+        </a>
+        <span class="policy-divider">/</span>
+        <a class="policy-link" href="{{ urls.termsOfUse }}">
+          {{ labels.termsOfUse }}
+        </a>
+        <span class="policy-divider">/</span>
+        <a class="policy-link" href="{{ urls.csr }}">
+          {{ labels.csr }}
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
