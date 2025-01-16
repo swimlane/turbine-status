@@ -1,6 +1,22 @@
 .main-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #000743;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #000743;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.support-link {
+  float: inline-end;
+  text-decoration: none;
+}
+
+.support-button {
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
 }

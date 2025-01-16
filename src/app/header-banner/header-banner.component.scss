@@ -1,0 +1,40 @@
+.header-banner {
+  margin-top: 104px;
+  background-color: #000743;
+  color: white;
+  height: 450px;
+  position: relative;
+  display: flex;
+}
+
+.banner-contents {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.banner-graphic {
+  position: absolute;
+  top: -85px;
+  right: -65px;
+}
+
+.banner-text {
+  position: relative;
+  max-width: 570px;
+}
+
+.banner-title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 69.6px;
+  letter-spacing: -0.06em;
+}
+
+.banner-subtitle {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+}

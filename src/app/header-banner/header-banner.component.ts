@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { labels } from '../../config';
 
 @Component({
   selector: 'app-header-banner',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './header-banner.component.scss'
 })
 export class HeaderBannerComponent {
-
+  labels = labels;
 }
