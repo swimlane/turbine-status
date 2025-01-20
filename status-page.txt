@@ -8,7 +8,8 @@
     </a>
   </div>
 </header>
-<div class="container">
+<div class="container page-title-container">
+  <div class="page-title">Europe (UK) Status</div>
   <div id="replace-with-subscribe"></div>
 </div>
 
@@ -91,6 +92,21 @@
   }
 }
 
+.page-title-container {
+  margin-top: 78px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 14px;
+  display: flex;
+}
+
+.page-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 48.5px;
+  letter-spacing: -0.06em;
+  width: fit-content;
+}
+
 .main-footer {
   height: 157px;
   background-color: #000743;
@@ -155,8 +171,8 @@
   padding: 12px 20px;
   background-color: #FF3366;
   border-radius: 6px;
-  margin-top: 10px;
-  float: right;
+  margin-left: auto;
+  cursor: pointer;
   
   &:hover {
     background-color: #d92c57;
