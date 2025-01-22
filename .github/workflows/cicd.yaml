@@ -15,4 +15,4 @@ jobs:
       with:
         base_href: /turbine-status/
         deploy_branch: gh-pages
-        angular_dist_build_folder: dist/turbine-status
+        angular_dist_build_folder: dist/turbine-status/browser
