@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Bundle and ship angular to gh-pages
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@[version]
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1
       with:
         base_href: /turbine-status/
         deploy_branch: gh-pages
