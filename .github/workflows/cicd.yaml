@@ -16,3 +16,4 @@ jobs:
         base_href: /turbine-status/
         deploy_branch: gh-pages
         angular_dist_build_folder: dist/turbine-status/browser
+        github_access_token: ${{ secrets.GITHUB_TOKEN }}
