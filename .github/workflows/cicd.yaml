@@ -1,0 +1,19 @@
+name: Build and Deploy
+permissions:
+  contents: write # Allow write permission to GITHUB_TOKEN to commit to deploy branch.
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Bundle and ship angular to gh-pages
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
+      with:
+        base_href: /
+        deploy_branch: gh-pages
+        angular_dist_build_folder: dist/turbine-status/browser
+        github_access_token: ${{ secrets.GITHUB_TOKEN }}
