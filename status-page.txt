@@ -16,8 +16,11 @@ iframe {
   width: 100%;
 }
 
+footer {
+  background-color: #000743;
+}
+
 .page-title-container {
-  margin-top: 78px;
   border-bottom: 1px solid #E0E0E0;
   padding-bottom: 14px;
   display: flex;
