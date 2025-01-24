@@ -5,7 +5,7 @@ export const labels = {
   bannerSubtitle:
     "Below you'll find status information for Swimlane's Cloud-native Turbine platform",
   supportButton: 'Go to Support Portal',
-  copyright: '© 2025 Swimlane Inc. All rights reserved.',
+  copyright: '© ' + new Date().getFullYear() + ' Swimlane Inc. All rights reserved.',
   privacyPolicy: 'Privacy Policy',
   legalResources: 'Legal Resources',
   contact: 'Contact',

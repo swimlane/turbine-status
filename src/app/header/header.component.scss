@@ -20,9 +20,11 @@
   border-radius: 6px;
   font-size: 14px;
   font-weight: 700;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
-    color: #f36;
     border-color: #f36;
+    background-color: #f36;
+    transition: all 0.2s ease-in-out;
   }
 }
