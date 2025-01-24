@@ -5,7 +5,7 @@
     <div class="row g-5">
       @for (region of regions; track region.name) {
       <a class="col-lg-6" href="{{ region.url }}">
-        <app-status-card [region]="region"></app-status-card>
+        <app-status-card [region]="region" [status]="region.status"></app-status-card>
       </a>
       }
     </div>

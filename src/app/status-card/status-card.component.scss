@@ -33,3 +33,34 @@
   margin-right: 5px;
   top: 9px;
 }
+
+.indicator {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.23px;
+  letter-spacing: normal;
+  background-color: #cfcfcf;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-top: 12px;
+  margin-left: 46px;
+
+  &-none {
+    background-color: #1d813a;
+  }
+
+  &-minor {
+    background-color: #e5a840;
+  }
+
+  &-major {
+    background-color: #ce7202;
+  }
+
+  &-critical {
+    background-color: #cf222e;
+  }
+}

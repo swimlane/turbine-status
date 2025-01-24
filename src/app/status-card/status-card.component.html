@@ -3,6 +3,9 @@
     <div class="card-title">
       <img class="card-icon" src="assets/world.svg" />
       {{ region().name }}
+      <div class="indicator" [ngClass]="getIndicatorClass()">
+        {{ status()?.description }}
+      </div>
     </div>
   </div>
 </div>

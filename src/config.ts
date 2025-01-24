@@ -5,7 +5,8 @@ export const labels = {
   bannerSubtitle:
     "Below you'll find status information for Swimlane's Cloud-native Turbine platform",
   supportButton: 'Go to Support Portal',
-  copyright: '© ' + new Date().getFullYear() + ' Swimlane Inc. All rights reserved.',
+  copyright:
+    '© ' + new Date().getFullYear() + ' Swimlane Inc. All rights reserved.',
   privacyPolicy: 'Privacy Policy',
   legalResources: 'Legal Resources',
   contact: 'Contact',
@@ -54,3 +55,5 @@ export const regions: Array<Region> = [
     url: 'https://australia.swimlanestatus.com',
   },
 ];
+
+export const regionStatusApiPath = '/api/v2/status.json';
