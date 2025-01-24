@@ -1,12 +1,5 @@
-<header class="main-header">
-  <div class="container">
-    <a href="">
-      <img class="swimlane-logo" src="https://swimlane.com/wp-content/uploads/sw-inline-logo-color-white.svg" />
-    </a>
-    <a class="support-link" href="https://swimlane.freshdesk.com/support/login" target="_blank">
-      <div class="support-button">Go to Support Portal</div>
-    </a>
-  </div>
+<header>
+  <iframe src="https://swimlanestatus.com/header"></iframe>
 </header>
 <div class="container page-title-container">
   <div class="page-title">Europe (UK) Status</div>
@@ -14,82 +7,13 @@
 </div>
 
 
-<footer class="main-footer">
-  <div class="container">
-    <div class="footer-contents">
-      <a href="">
-        <img class="swimlane-logo" src="https://swimlane.com/wp-content/uploads/sw-inline-logo-color-white.svg" />
-      </a>
-      <div class="footer-icons">
-        <a class="footer-icon" href="https://www.X.com/swimlane" target="_blank">
-          <img src="https://swimlane.com/wp-content/uploads/2022/11/tw.svg" />
-        </a>
-        <a class="footer-icon" href="https://www.linkedin.com/company/swimlane" target="_blank">
-          <img src="https://swimlane.com/wp-content/uploads/2022/11/in.svg" />
-        </a>
-        <a class="footer-icon" href="https://www.youtube.com/channel/UCs6qP3QXytOsCD1TRIw0EYg" target="_blank">
-          <img src="https://swimlane.com/wp-content/uploads/2022/11/yt.svg" />
-        </a>
-      </div>
-    </div>
-    <div class="footer-policies">
-      <div class="copyright">© 2025 Swimlane Inc. All rights reserved.</div>
-      <div class="policy-links">
-        <a class="policy-link" href="https://swimlane.com/privacy-policy" target="_blank">
-          Privacy Policy
-        </a>
-        <span class="policy-divider">/</span>
-        <a class="policy-link" href="https://swimlane.com/legal" target="_blank">
-          Legal Resources
-        </a>
-        <span class="policy-divider">/</span>
-        <a class="policy-link" href="https://swimlane.com/contact'" target="_blank">
-          Contact
-        </a>
-        <span class="policy-divider">/</span>
-        <a class="policy-link" href="{https://swimlane.freshdesk.com/support/login" target="_blank">
-          Support
-        </a>
-      </div>
-    </div>
-  </div>
+<footer>
+  <iframe class="footer-iframe" src="https://swimlanestatus.com/footer"></iframe>
 </footer>
 
 
-.main-header {
+iframe {
   width: 100%;
-  top: 0;
-  background-color: #000743;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  z-index: 10;
-}
-
-.swimlane-logo {
-			  height: 35px;
-  width: 168px;
-}
-
-.support-link {
-  float: inline-end;
-  text-decoration: none;
-}
-
-.support-button {
-  width: 180px;
-  position: relative;
-  padding: 10px 20px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 700;
-  top: -6px;
-
-  &:hover {
-    color: #f36;
-    border-color: #f36;
-  }
 }
 
 .page-title-container {
@@ -105,65 +29,6 @@
   line-height: 48.5px;
   letter-spacing: -0.06em;
   width: fit-content;
-}
-
-.main-footer {
-  height: 157px;
-  background-color: #000743;
-  margin-top: auto;
-}
-
-.footer-contents {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.footer-icons {
-  float: right;
-}
-
-.footer-icon {
-  margin-left: 30px;
-  opacity: 0.3;
-
-  &:hover {
-    opacity: 1;
-  }
-}
-
-.footer-policies {
-  display: flex;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.04em;
-}
-
-.copyright {
-  color: #c6d1db;
-  opacity: 0.5;
-}
-
-.policy-links {
-  margin-left: auto;
-}
-
-.policy-link {
-  text-decoration: none !important;
-  color: #c6d1db;
-  opacity: 0.5;
-
-  &:hover {
-    opacity: 1;
-    color: #f36;
-  }
-}
-
-.policy-divider {
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #c6d1db;
-  opacity: 0.5;
 }
 
 .updates-dropdown-container {
