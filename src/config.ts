@@ -1,5 +1,7 @@
 import { Region } from './types';
 
+export const statusPollingIntervalInMs = 30000;
+
 export const labels = {
   bannerTitle: 'Welcome to the Swimlane Status Page',
   bannerSubtitle:
