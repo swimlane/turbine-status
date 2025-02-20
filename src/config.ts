@@ -41,12 +41,12 @@ export const regions: Array<Region> = [
     url: 'https://uswest.swimlanestatus.com',
   },
   {
-    name: 'Asia Pacific (Japan)',
-    url: 'https://japan.swimlanestatus.com',
+    name: 'Asia Pacific (Australia)',
+    url: 'https://australia.swimlanestatus.com',
   },
   {
-    name: 'Europe (UK)',
-    url: 'https://uk.swimlanestatus.com',
+    name: 'Asia Pacific (Japan)',
+    url: 'https://japan.swimlanestatus.com',
   },
   {
     name: 'Asia Pacific (Singapore)',
@@ -57,8 +57,8 @@ export const regions: Array<Region> = [
     url: 'https://germany.swimlanestatus.com',
   },
   {
-    name: 'Asia Pacific (Australia)',
-    url: 'https://australia.swimlanestatus.com',
+    name: 'Europe (UK)',
+    url: 'https://uk.swimlanestatus.com',
   },
 ];
 
