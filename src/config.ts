@@ -29,11 +29,15 @@ export const urls = {
 
 export const regions: Array<Region> = [
   {
-    name: 'US East',
+    name: 'Americas (US East)',
     url: 'https://useast.swimlanestatus.com',
   },
   {
-    name: 'US West',
+    name: 'Americas (US East 2)',
+    url: 'https://useast2.swimlanestatus.com',
+  },
+  {
+    name: 'Americas (US West)',
     url: 'https://uswest.swimlanestatus.com',
   },
   {
