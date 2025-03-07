@@ -31,34 +31,42 @@ export const regions: Array<Region> = [
   {
     name: 'Americas (US East)',
     url: 'https://useast.swimlanestatus.com',
+    appdomain: 'us1.swimlane.app',
   },
   {
     name: 'Americas (US East 2)',
     url: 'https://useast2.swimlanestatus.com',
+    appdomain: 'us2.swimlane.app',
   },
   {
     name: 'Americas (US West)',
     url: 'https://uswest.swimlanestatus.com',
+    appdomain: 'usn.swimlane.app',
   },
   {
     name: 'Asia Pacific (Australia)',
     url: 'https://australia.swimlanestatus.com',
+    appdomain: 'au1.swimlane.app',
   },
   {
     name: 'Asia Pacific (Japan)',
     url: 'https://japan.swimlanestatus.com',
+    appdomain: 'jp1.swimlane.app',
   },
   {
     name: 'Asia Pacific (Singapore)',
     url: 'https://singapore.swimlanestatus.com',
+    appdomain: 'sg1.swimlane.app',
   },
   {
     name: 'Europe (Germany)',
     url: 'https://germany.swimlanestatus.com',
+    appdomain: 'de1.swimlane.app',
   },
   {
     name: 'Europe (UK)',
     url: 'https://uk.swimlanestatus.com',
+    appdomain: 'uk1.swimlane.app',
   },
 ];
 

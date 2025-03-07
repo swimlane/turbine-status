@@ -1,6 +1,7 @@
 export type Region = {
   name: string;
   url: string;
+  appdomain: string;
   status?: Status;
 };
 
