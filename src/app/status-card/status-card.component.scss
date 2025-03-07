@@ -15,9 +15,13 @@
 }
 
 .card-contents {
+  width: 100%;
   margin-top: auto;
   margin-bottom: auto;
   padding: 0 40px;
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
 }
 
 .card-title {
@@ -29,9 +33,10 @@
 }
 
 .card-icon {
-  position: relative;
+  float: left;
   margin-right: 5px;
   top: 9px;
+  flex-grow: 0;
 }
 
 .indicator {
@@ -44,9 +49,8 @@
   width: fit-content;
   height: fit-content;
   padding: 8px 10px;
+  margin-top: 8px;
   border-radius: 6px;
-  margin-top: 12px;
-  margin-left: 46px;
 
   &-none {
     background-color: #1d813a;
