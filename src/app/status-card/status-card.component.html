@@ -7,6 +7,9 @@
       <div class="card-title">
         {{ region().name }}
       </div>
+      <div class="card-domain">
+        {{ region().appdomain }}
+      </div>
       <div class="indicator" [ngClass]="getIndicatorClass()">
         {{ status()?.description }}
       </div>
