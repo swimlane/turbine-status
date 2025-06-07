@@ -34,11 +34,6 @@ export const regions: Array<Region> = [
     appdomain: 'us1.swimlane.app',
   },
   {
-    name: 'Americas (US East 2)',
-    url: 'https://useast2.swimlanestatus.com',
-    appdomain: 'us2.swimlane.app',
-  },
-  {
     name: 'Americas (US West)',
     url: 'https://uswest.swimlanestatus.com',
     appdomain: 'usn.swimlane.app',
