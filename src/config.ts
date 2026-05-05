@@ -40,7 +40,7 @@ export const regions: Array<Region> = [
   },
   {
     name: 'Canada (CA Central 1)',
-    url: 'https://turbinecanadacentral.statuspage.io',
+    url: 'https://canadacentral.swimlanestatus.com',
     appdomain: 'ca1.swimlane.app',
   },
   {
