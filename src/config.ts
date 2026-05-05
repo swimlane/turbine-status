@@ -39,6 +39,11 @@ export const regions: Array<Region> = [
     appdomain: 'usn.swimlane.app',
   },
   {
+    name: 'Canada (CA Central 1)',
+    url: 'https://cacentral1.swimlanestatus.com',
+    appdomain: 'ca1.swimlane.app',
+  },
+  {
     name: 'Asia Pacific (Australia)',
     url: 'https://australia.swimlanestatus.com',
     appdomain: 'au1.swimlane.app',
